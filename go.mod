@@ -62,4 +62,4 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
-replace github.com/containifyci/dunebot => github.com/franky-agent/dunebot v0.3.17-0.20260816095638-de90b2676583
+replace github.com/containifyci/dunebot => github.com/franky-agent/dunebot v0.3.17-0.20260816100722-ff42ec4f0197

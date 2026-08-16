@@ -12,8 +12,8 @@ github.com/dusted-go/logging v1.3.0 h1:SL/EH1Rp27oJQIte+LjWvWACSnYDTqNx5gZULin0X
 github.com/dusted-go/logging v1.3.0/go.mod h1:s58+s64zE5fxSWWZfp+b8ZV0CHyKHjamITGyuY1wzGg=
 github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a h1:yDWHCSQ40h88yih2JAcL6Ls/kVkSE8GFACTGVnMPruw=
 github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a/go.mod h1:7Ga40egUymuWXxAe151lTNnCv97MddSOVsjpPPkityA=
-github.com/franky-agent/dunebot v0.3.17-0.20260816095638-de90b2676583 h1:NQUSMYjH/NWhLcmM6HqQQ3AfPiKzki7ij2s7+N+dX3M=
-github.com/franky-agent/dunebot v0.3.17-0.20260816095638-de90b2676583/go.mod h1:YX+BePmWH40BUT4flLPPiJanGdMNOpxeqS2U0M1ZyRA=
+github.com/franky-agent/dunebot v0.3.17-0.20260816100722-ff42ec4f0197 h1:0f4vbpo8oHB4U8ont1FhOQMmNMbzi7FSu8fUrddttzM=
+github.com/franky-agent/dunebot v0.3.17-0.20260816100722-ff42ec4f0197/go.mod h1:YX+BePmWH40BUT4flLPPiJanGdMNOpxeqS2U0M1ZyRA=
 github.com/go-logr/logr v1.4.3 h1:CjnDlHq8ikf6E492q6eKboGOC0T8CDaOvkHCIg8idEI=
 github.com/go-logr/logr v1.4.3/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=
