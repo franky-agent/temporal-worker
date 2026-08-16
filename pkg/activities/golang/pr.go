@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	github "github.com/google/go-github/v89/github"
+	github "github.com/google/go-github/v90/github"
 	"go.temporal.io/sdk/activity"
 	"go.uber.org/zap"
 
@@ -183,10 +183,10 @@ func PRCreate(ctx context.Context, i PRCreateInputs) (PRCreateOutputs, error) {
 	title := i.Title
 
 	// Create PR
-	p, _, err := client.PullRequests.Create(ctx, i.Org, i.RepoName, &github.NewPullRequest{
-		Base:  &branch,
+	p, _, err := client.PullRequests.Create(ctx, i.Org, i.RepoName, github.CreatePullRequest{
+		Base:  branch,
 		Body:  &i.Description,
-		Head:  &i.Branch,
+		Head:  i.Branch,
 		Title: &title,
 	})
 	if err != nil {
